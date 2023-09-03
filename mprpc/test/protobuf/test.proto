@@ -1,0 +1,23 @@
+syntax = "proto3"; //声明了protobuf的版本
+
+package fixbug; //声明代码所在的包，对于C++来说就是namespace
+
+//定义登录请求消息类型 name pwd
+message LoginRequest{
+    string name = 1; // =1 代表name是这个message第一个字段，不是指name的值
+    string pwd = 2;
+}
+
+//定义登录响应消息类型
+message LoginResponse{
+    int32 errcode = 1;
+    string errmsg = 2;
+    bool success = 3;
+}
+
+
+
+
+
+
+
