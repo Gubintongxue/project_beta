@@ -2,7 +2,7 @@ syntax = "proto3"; // 声明了protobuf版本
 
 package fixbug; // 声明了代码所在的包（生成C++代码后就是namespace 名字）
 
-//
+//定义错误码，错误消息
 message ResultCode
 {
     int32 errcode = 1;
@@ -23,11 +23,13 @@ message LoginResponse
     bool success = 3;
 }
 
+//定义请求好友列表请求消息
 message GetFriendListRequest
 {
     uint32 userid = 1;
 }
 
+//定义好友信息
 message User
 {
     bytes name =1;
@@ -40,6 +42,7 @@ message User
     Sex sex = 3;
 }
 
+//定义请求好友信息响应
 message GetFriendListResponse
 {
     ResultCode result = 1;
