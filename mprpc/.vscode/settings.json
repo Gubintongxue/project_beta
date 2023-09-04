@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "adc.h": "c",
-        "*.inc": "cpp"
+        "*.inc": "cpp",
+        "cstdlib": "cpp"
     }
 }

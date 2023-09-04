@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gubin/project_beta/project_beta/mprpc/example/user.pb.cc" "/home/gubin/project_beta/project_beta/mprpc/build/example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
-  "/home/gubin/project_beta/project_beta/mprpc/example/callee/userservice.cc" "/home/gubin/project_beta/project_beta/mprpc/build/example/callee/CMakeFiles/provider.dir/userservice.cc.o"
+  "/home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp" "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o"
+  "/home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp" "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

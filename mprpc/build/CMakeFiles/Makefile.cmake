@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../example/CMakeLists.txt"
   "../example/callee/CMakeLists.txt"
   "../example/caller/CMakeLists.txt"
+  "../src/CMakeLists.txt"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -41,6 +42,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/callee/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/caller/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -48,5 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   "example/callee/CMakeFiles/provider.dir/DependInfo.cmake"
   )
