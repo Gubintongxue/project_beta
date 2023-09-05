@@ -61,3 +61,7 @@ MprpcApplication& MprpcApplication::GetInstance()
     return app;
 }
 
+MprpcConfig& MprpcApplication::GetConfig()
+{
+    return m_config;
+}
