@@ -60,15 +60,15 @@ include src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: ../src/mprpcapplication.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcapplication.cpp.i"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp > CMakeFiles/mprpc.dir/mprpcapplication.cpp.i
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp > CMakeFiles/mprpc.dir/mprpcapplication.cpp.i
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcapplication.cpp.s"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.s
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.s
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.requires:
 
@@ -81,18 +81,42 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.provides: src/CMakeFiles/mprpc.d
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
 
 
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o: ../src/mprpcconfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpcconfig.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.cpp
+
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcconfig.cpp.i"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.cpp > CMakeFiles/mprpc.dir/mprpcconfig.cpp.i
+
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcconfig.cpp.s"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.cpp -o CMakeFiles/mprpc.dir/mprpcconfig.cpp.s
+
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.provides: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
+
+
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: ../src/rpcprovider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/rpcprovider.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/rpcprovider.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/rpcprovider.cpp.i"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp > CMakeFiles/mprpc.dir/rpcprovider.cpp.i
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp > CMakeFiles/mprpc.dir/rpcprovider.cpp.i
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpcprovider.cpp.s"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp -o CMakeFiles/mprpc.dir/rpcprovider.cpp.s
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp -o CMakeFiles/mprpc.dir/rpcprovider.cpp.s
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.requires:
 
@@ -108,25 +132,27 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.provides.build: src/CMakeFiles/mprpc.
 # Object files for target mprpc
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" \
+"CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" \
 "CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
 
-../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
-../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
-../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
-../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libmprpc.a"
-	cd /home/gubin/project_beta/project_beta/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
+../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
+../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
+../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
+../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/build.make
+../lib/libmprpc.so: src/CMakeFiles/mprpc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libmprpc.so"
 	cd /home/gubin/project_beta/project_beta/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/mprpc.dir/build: ../lib/libmprpc.a
+src/CMakeFiles/mprpc.dir/build: ../lib/libmprpc.so
 
 .PHONY : src/CMakeFiles/mprpc.dir/build
 
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.requires
 
 .PHONY : src/CMakeFiles/mprpc.dir/requires

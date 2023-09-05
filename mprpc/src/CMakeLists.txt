@@ -1,2 +1,6 @@
-aux_source_directory(. SRC_LIST)
-add_library(mprpc ${SRC_LIST})
+#aux_source_directory(. SRC_LIST)
+set(SRC_LIST 
+    mprpcapplication.cpp
+    mprpcconfig.cpp
+    rpcprovider.cpp)
+add_library(mprpc SHARED ${SRC_LIST})

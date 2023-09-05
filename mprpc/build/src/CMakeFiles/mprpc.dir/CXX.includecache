@@ -7,6 +7,14 @@
 #IncludeRegexTransform: 
 
 ../src/include/mprpcapplication.h
+mprpcconfig.h
+../src/include/mprpcconfig.h
+
+../src/include/mprpcconfig.h
+unordered_map
+-
+string
+-
 
 ../src/include/rpcprovider.h
 google/protobuf/service.h
@@ -18,6 +26,14 @@ mprpcapplication.h
 iostream
 -
 unistd.h
+-
+
+/home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.cpp
+mprpcconfig.h
+/home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.h
+iostream
+-
+string
 -
 
 /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp

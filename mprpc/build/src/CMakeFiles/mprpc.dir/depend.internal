@@ -3,7 +3,11 @@
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
  ../src/include/mprpcapplication.h
+ ../src/include/mprpcconfig.h
  /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp
+src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
+ ../src/include/mprpcconfig.h
+ /home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.cpp
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
  ../src/include/rpcprovider.h
  /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp
