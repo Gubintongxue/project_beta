@@ -15,6 +15,11 @@
   "file": "/home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp"
 },
 {
+  "directory": "/home/gubin/project_beta/project_beta/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/mprpc/src/include -I/home/gubin/project_beta/project_beta/mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.cc",
+  "file": "/home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.cc"
+},
+{
   "directory": "/home/gubin/project_beta/project_beta/mprpc/build/example/callee",
   "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/mprpc/src/include -I/home/gubin/project_beta/project_beta/mprpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/gubin/project_beta/project_beta/mprpc/example/callee/userservice.cc",
   "file": "/home/gubin/project_beta/project_beta/mprpc/example/callee/userservice.cc"

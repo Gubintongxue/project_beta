@@ -179,6 +179,33 @@ mprpcconfig.cpp.s:
 	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.s
 .PHONY : mprpcconfig.cpp.s
 
+rpcheader.pb.o: rpcheader.pb.cc.o
+
+.PHONY : rpcheader.pb.o
+
+# target to build an object file
+rpcheader.pb.cc.o:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.cc.o
+
+rpcheader.pb.i: rpcheader.pb.cc.i
+
+.PHONY : rpcheader.pb.i
+
+# target to preprocess a source file
+rpcheader.pb.cc.i:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.cc.i
+
+rpcheader.pb.s: rpcheader.pb.cc.s
+
+.PHONY : rpcheader.pb.s
+
+# target to generate assembly for a file
+rpcheader.pb.cc.s:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.cc.s
+
 rpcprovider.o: rpcprovider.cpp.o
 
 .PHONY : rpcprovider.o
@@ -221,6 +248,9 @@ help:
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... rpcheader.pb.o"
+	@echo "... rpcheader.pb.i"
+	@echo "... rpcheader.pb.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"
