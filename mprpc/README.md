@@ -28,3 +28,22 @@ C++实现分布式网络通信框架项目
     +  查询配置项信息
     +  配置内容键值对map
     +  去掉字符串中的空格
+
+6.RpcProvider提供网络服务初始搭建  
++ 基于muduo网络库来提供高并发网络服务
+  + 包含TcpServer.h, EventLoop.h, InetAddress.h, TcpConnection.h 头文件，来实现muduo提供的服务端功能
+  + 根据MprpcApplication类提供的方法获取conf配置文件，并根据其中的ip，port信息使用muduo TcpServer对象创建socket rpcserver
+  + 建立本地socket连接回调OnConnection，读写事件回调OnMessage(未完成定义), 并在server绑定连接回调和消息读写回调方法  分离了网络代码和业务代码
+  + setThreadNum设置muduo库的线程数量
+  + server.start(),m_eventloop()开启网络服务，事件循环
+
+7.RpcProvider发布服务方法
++ 成员变量定义
+  + 包含 protobuf中的descriptor.h，unordered_map头文件
+  + 定义结构体ServiceInfo，包含m_service服务对象，m_methodMap服务方法名称和服务方法对象指针的映射表
+  + 定义m_serviceMap是存储注册成功的服务对象和其服务方法的所有信息，储存string和ServiceMap的键值对
++ 完善NotifyService方法
+  +  NotifyService方法是Service* 基类指针，接收具体的派生类服务对象，根据GetDescriptor()获取服务对象描述指针
+  +  获取服务对象的名字，方法总数
+  +  method方法根据下标轮询获取服务对象下的方法的名称和方法描述指针，储存到m_methodMap
+  +  最后将服务对象和服务对象具体描述信息存储到m_serviceMap
