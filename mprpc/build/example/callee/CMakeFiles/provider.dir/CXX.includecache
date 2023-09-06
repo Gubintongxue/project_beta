@@ -73,6 +73,10 @@ functional
 -
 string
 -
+google/protobuf/descriptor.h
+-
+unordered_map
+-
 
 /home/gubin/project_beta/project_beta/mprpc/example/callee/userservice.cc
 iostream
