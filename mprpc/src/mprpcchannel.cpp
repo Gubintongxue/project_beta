@@ -52,7 +52,8 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     // header_size | service_name | method_name| args_size | args_str(name password)
     // 3.组织待发送的rpc请求字符串（注意这里发送字符串的内容
     std::string send_rpc_str;
-    send_rpc_str.insert(0, std::string((char*)&header_size), 4);
+    send_rpc_str.insert(0, std::string((char*)&header_size, 4));
+    //send_rpc_str.insert(0, std::to_string(header_size));
     send_rpc_str += rpc_header_str;
     send_rpc_str += args_str;
 
