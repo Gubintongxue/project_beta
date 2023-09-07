@@ -9,4 +9,5 @@
 /home/gubin/project_beta/project_beta/mprpc/build/example/callee/CMakeFiles/provider.dir
 /home/gubin/project_beta/project_beta/mprpc/build/example/callee/CMakeFiles/edit_cache.dir
 /home/gubin/project_beta/project_beta/mprpc/build/example/caller/CMakeFiles/rebuild_cache.dir
+/home/gubin/project_beta/project_beta/mprpc/build/example/caller/CMakeFiles/consumer.dir
 /home/gubin/project_beta/project_beta/mprpc/build/example/caller/CMakeFiles/edit_cache.dir

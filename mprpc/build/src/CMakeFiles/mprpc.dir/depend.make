@@ -5,6 +5,12 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: ../src/include/mprpcapplication
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: ../src/include/mprpcconfig.h
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: ../src/mprpcapplication.cpp
 
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: ../src/include/mprpcapplication.h
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: ../src/include/mprpcchannel.h
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: ../src/include/mprpcconfig.h
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: ../src/mprpcchannel.cpp
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: ../src/rpcheader.pb.h
+
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o: ../src/include/mprpcconfig.h
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o: ../src/mprpcconfig.cpp
 

@@ -10,6 +10,14 @@
 mprpcconfig.h
 ../src/include/mprpcconfig.h
 
+../src/include/mprpcchannel.h
+google/protobuf/service.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/message.h
+-
+
 ../src/include/mprpcconfig.h
 unordered_map
 -
@@ -45,6 +53,28 @@ iostream
 -
 unistd.h
 -
+
+/home/gubin/project_beta/project_beta/mprpc/src/mprpcchannel.cpp
+mprpcchannel.h
+/home/gubin/project_beta/project_beta/mprpc/src/mprpcchannel.h
+string
+-
+rpcheader.pb.h
+/home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.h
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+unistd.h
+-
+errno.h
+-
+mprpcapplication.h
+/home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.h
 
 /home/gubin/project_beta/project_beta/mprpc/src/mprpcconfig.cpp
 mprpcconfig.h

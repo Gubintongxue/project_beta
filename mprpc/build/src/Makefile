@@ -152,6 +152,33 @@ mprpcapplication.cpp.s:
 	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.s
 .PHONY : mprpcapplication.cpp.s
 
+mprpcchannel.o: mprpcchannel.cpp.o
+
+.PHONY : mprpcchannel.o
+
+# target to build an object file
+mprpcchannel.cpp.o:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
+.PHONY : mprpcchannel.cpp.o
+
+mprpcchannel.i: mprpcchannel.cpp.i
+
+.PHONY : mprpcchannel.i
+
+# target to preprocess a source file
+mprpcchannel.cpp.i:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.i
+.PHONY : mprpcchannel.cpp.i
+
+mprpcchannel.s: mprpcchannel.cpp.s
+
+.PHONY : mprpcchannel.s
+
+# target to generate assembly for a file
+mprpcchannel.cpp.s:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.s
+.PHONY : mprpcchannel.cpp.s
+
 mprpcconfig.o: mprpcconfig.cpp.o
 
 .PHONY : mprpcconfig.o
@@ -245,6 +272,9 @@ help:
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
+	@echo "... mprpcchannel.o"
+	@echo "... mprpcchannel.i"
+	@echo "... mprpcchannel.s"
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
