@@ -9,6 +9,8 @@
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h

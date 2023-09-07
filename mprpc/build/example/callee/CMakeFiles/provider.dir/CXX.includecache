@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../example/user.pb.h
+../example/friend.pb.h
 limits
 -
 string
@@ -49,6 +49,16 @@ google/protobuf/port_undef.inc
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
+mprpcchannel.h
+../src/include/mprpcchannel.h
+
+../src/include/mprpcchannel.h
+google/protobuf/service.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/message.h
+-
 
 ../src/include/mprpcconfig.h
 unordered_map
@@ -78,21 +88,23 @@ google/protobuf/descriptor.h
 unordered_map
 -
 
-/home/gubin/project_beta/project_beta/mprpc/example/callee/userservice.cc
+/home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc
 iostream
 -
 string
 -
-user.pb.h
-/home/gubin/project_beta/project_beta/mprpc/example/callee/user.pb.h
+friend.pb.h
+/home/gubin/project_beta/project_beta/mprpc/example/callee/friend.pb.h
 mprpcapplication.h
 /home/gubin/project_beta/project_beta/mprpc/example/callee/mprpcapplication.h
 rpcprovider.h
 /home/gubin/project_beta/project_beta/mprpc/example/callee/rpcprovider.h
+vector
+-
 
-/home/gubin/project_beta/project_beta/mprpc/example/user.pb.cc
-user.pb.h
-/home/gubin/project_beta/project_beta/mprpc/example/user.pb.h
+/home/gubin/project_beta/project_beta/mprpc/example/friend.pb.cc
+friend.pb.h
+/home/gubin/project_beta/project_beta/mprpc/example/friend.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -114,7 +126,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/gubin/project_beta/project_beta/mprpc/example/user.pb.h
+/home/gubin/project_beta/project_beta/mprpc/example/friend.pb.h
 limits
 -
 string
