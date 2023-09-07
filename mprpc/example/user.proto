@@ -24,8 +24,23 @@ message LoginResponse
     bool success = 2;
 }
 
+//定义注册请求消息
+message RegisterRequest
+{
+    uint32 id = 1;
+    bytes name = 2;
+    bytes pwd = 3;
+}
+//定义注册响应消息
+message RegisterResponse
+{
+    ResultCode result = 1;
+    bool success = 2;
+}
+
 //定义rpc方法
 service UserServiceRpc
 {
     rpc Login(LoginRequest) returns(LoginResponse);
+    rpc Register(RegisterRequest) returns(RegisterResponse);
 }
