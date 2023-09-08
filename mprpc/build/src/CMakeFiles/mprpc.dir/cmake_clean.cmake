@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
   "CMakeFiles/mprpc.dir/mprpcchannel.cpp.o"
   "CMakeFiles/mprpc.dir/mprpccontroller.cpp.o"
+  "CMakeFiles/mprpc.dir/logger.cpp.o"
   "../../lib/libmprpc.pdb"
   "../../lib/libmprpc.a"
 )

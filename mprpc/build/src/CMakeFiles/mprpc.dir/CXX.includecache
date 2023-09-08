@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+../src/include/logger.h
+lockqueue.h
+../src/include/lockqueue.h
+string
+-
+
 ../src/include/mprpcapplication.h
 mprpcconfig.h
 ../src/include/mprpcconfig.h
@@ -13,6 +29,8 @@ mprpcchannel.h
 ../src/include/mprpcchannel.h
 mprpccontroller.h
 ../src/include/mprpccontroller.h
+logger.h
+../src/include/logger.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -54,6 +72,14 @@ string
 google/protobuf/descriptor.h
 -
 unordered_map
+-
+
+/home/gubin/project_beta/project_beta/mprpc/src/logger.cpp
+logger.h
+/home/gubin/project_beta/project_beta/mprpc/src/logger.h
+time.h
+-
+iostream
 -
 
 /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp

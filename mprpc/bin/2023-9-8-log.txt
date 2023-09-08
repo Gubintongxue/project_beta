@@ -1,0 +1,2 @@
+15:6:45 =>[error] first log message
+15:6:45 =>[error] /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc:main:45

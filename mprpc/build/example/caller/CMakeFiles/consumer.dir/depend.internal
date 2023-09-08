@@ -6,6 +6,8 @@ example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
  /home/gubin/project_beta/project_beta/mprpc/example/friend.pb.h
 example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
  ../example/friend.pb.h
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h

@@ -125,6 +125,33 @@ mprpc/fast:
 	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
+logger.o: logger.cpp.o
+
+.PHONY : logger.o
+
+# target to build an object file
+logger.cpp.o:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cpp.o
+.PHONY : logger.cpp.o
+
+logger.i: logger.cpp.i
+
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cpp.i:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cpp.i
+.PHONY : logger.cpp.i
+
+logger.s: logger.cpp.s
+
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cpp.s:
+	cd /home/gubin/project_beta/project_beta/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cpp.s
+.PHONY : logger.cpp.s
+
 mprpcapplication.o: mprpcapplication.cpp.o
 
 .PHONY : mprpcapplication.o
@@ -296,6 +323,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... mprpc"
 	@echo "... edit_cache"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
