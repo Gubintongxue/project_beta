@@ -1,0 +1,2 @@
+/home/gubin/project_beta/project_beta/chatserver/build/CMakeFiles/rebuild_cache.dir
+/home/gubin/project_beta/project_beta/chatserver/build/CMakeFiles/edit_cache.dir
