@@ -9,5 +9,6 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
+ ../src/include/mprpccontroller.h
  ../src/include/rpcprovider.h
  /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc

@@ -177,13 +177,38 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.provides: src/CMakeFiles/mprpc.dir/m
 src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
 
 
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o: ../src/mprpccontroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpccontroller.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpccontroller.cpp.i"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp > CMakeFiles/mprpc.dir/mprpccontroller.cpp.i
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpccontroller.cpp.s"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp -o CMakeFiles/mprpc.dir/mprpccontroller.cpp.s
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o
+
+
 # Object files for target mprpc
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" \
 "CMakeFiles/mprpc.dir/rpcprovider.cpp.o" \
 "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
-"CMakeFiles/mprpc.dir/mprpcchannel.cpp.o"
+"CMakeFiles/mprpc.dir/mprpcchannel.cpp.o" \
+"CMakeFiles/mprpc.dir/mprpccontroller.cpp.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
@@ -193,9 +218,10 @@ mprpc_EXTERNAL_OBJECTS =
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library ../../lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../lib/libmprpc.a"
 	cd /home/gubin/project_beta/project_beta/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /home/gubin/project_beta/project_beta/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
@@ -209,6 +235,7 @@ src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.re
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
 
 .PHONY : src/CMakeFiles/mprpc.dir/requires
 

@@ -9,4 +9,5 @@ example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
  ../src/include/mprpcapplication.h
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
+ ../src/include/mprpccontroller.h
  /home/gubin/project_beta/project_beta/mprpc/example/caller/callfriendservice.cc

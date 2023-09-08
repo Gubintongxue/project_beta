@@ -4,6 +4,7 @@
 
 #include "mprpcconfig.h"
 #include "mprpcchannel.h"
+#include "mprpccontroller.h"
 #pragma once
 
 // mprpc框架的基础类，负责框架的一些初始化操作

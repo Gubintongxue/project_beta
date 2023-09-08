@@ -11,6 +11,8 @@ mprpcconfig.h
 ../src/include/mprpcconfig.h
 mprpcchannel.h
 ../src/include/mprpcchannel.h
+mprpccontroller.h
+../src/include/mprpccontroller.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -22,6 +24,12 @@ google/protobuf/message.h
 
 ../src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+../src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -
@@ -85,6 +93,10 @@ iostream
 -
 string
 -
+
+/home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp
+mprpccontroller.h
+/home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.h
 
 /home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.cc
 rpcheader.pb.h

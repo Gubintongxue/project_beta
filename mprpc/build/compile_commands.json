@@ -25,6 +25,11 @@
   "file": "/home/gubin/project_beta/project_beta/mprpc/src/mprpcchannel.cpp"
 },
 {
+  "directory": "/home/gubin/project_beta/project_beta/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/mprpc/src/include -I/home/gubin/project_beta/project_beta/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp",
+  "file": "/home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp"
+},
+{
   "directory": "/home/gubin/project_beta/project_beta/mprpc/build/example/callee",
   "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/mprpc/src/include -I/home/gubin/project_beta/project_beta/mprpc/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc",
   "file": "/home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc"
