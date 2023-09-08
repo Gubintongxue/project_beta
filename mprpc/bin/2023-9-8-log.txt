@@ -1,2 +1,10 @@
 15:6:45 =>[error] first log message
 15:6:45 =>[error] /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc:main:45
+15:17:31 =>[error] first log message
+15:17:31 =>[error] /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc:main:45
+15:17:31 =>[info] service_name:FriendServiceRpc
+15:17:31 =>[info] method_name:GetFriendsList
+15:20:48 =>[info] first log message
+15:20:48 =>[info] /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc:main:45
+15:20:48 =>[info] service_name:FriendServiceRpc
+15:20:48 =>[info] method_name:GetFriendsList
