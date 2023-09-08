@@ -12,5 +12,6 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o: ../src/include/mprpcc
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o: ../src/include/mprpcconfig.h
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o: ../src/include/mprpccontroller.h
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o: ../src/include/rpcprovider.h
+example/callee/CMakeFiles/provider.dir/friendservice.cc.o: ../src/include/zookeeperutil.h
 example/callee/CMakeFiles/provider.dir/friendservice.cc.o: ../example/callee/friendservice.cc
 

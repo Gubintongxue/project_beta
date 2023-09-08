@@ -71,6 +71,8 @@ mprpccontroller.h
 ../src/include/mprpccontroller.h
 logger.h
 ../src/include/logger.h
+zookeeperutil.h
+../src/include/zookeeperutil.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -112,6 +114,14 @@ string
 google/protobuf/descriptor.h
 -
 unordered_map
+-
+
+../src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
 -
 
 /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc

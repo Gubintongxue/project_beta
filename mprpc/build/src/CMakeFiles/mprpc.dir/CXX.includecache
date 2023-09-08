@@ -31,6 +31,8 @@ mprpccontroller.h
 ../src/include/mprpccontroller.h
 logger.h
 ../src/include/logger.h
+zookeeperutil.h
+../src/include/zookeeperutil.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -72,6 +74,14 @@ string
 google/protobuf/descriptor.h
 -
 unordered_map
+-
+
+../src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
 -
 
 /home/gubin/project_beta/project_beta/mprpc/src/logger.cpp
@@ -193,4 +203,14 @@ mprpcapplication.h
 /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.h
 rpcheader.pb.h
 /home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.h
+
+/home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.cpp
+zookeeperutil.h
+/home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.h
+mprpcapplication.h
+/home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.h
+semaphore.h
+-
+iostream
+-
 

@@ -71,6 +71,8 @@ mprpccontroller.h
 ../src/include/mprpccontroller.h
 logger.h
 ../src/include/logger.h
+zookeeperutil.h
+../src/include/zookeeperutil.h
 
 ../src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -88,6 +90,14 @@ string
 
 ../src/include/mprpccontroller.h
 google/protobuf/service.h
+-
+string
+-
+
+../src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
 -
 string
 -

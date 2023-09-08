@@ -225,6 +225,30 @@ src/CMakeFiles/mprpc.dir/logger.cpp.o.provides: src/CMakeFiles/mprpc.dir/logger.
 src/CMakeFiles/mprpc.dir/logger.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/logger.cpp.o
 
 
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o: ../src/zookeeperutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/zookeeperutil.cpp.o -c /home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.cpp
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/zookeeperutil.cpp.i"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.cpp > CMakeFiles/mprpc.dir/zookeeperutil.cpp.i
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/zookeeperutil.cpp.s"
+	cd /home/gubin/project_beta/project_beta/mprpc/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.cpp -o CMakeFiles/mprpc.dir/zookeeperutil.cpp.s
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
+
+
 # Object files for target mprpc
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" \
@@ -233,7 +257,8 @@ mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
 "CMakeFiles/mprpc.dir/mprpcchannel.cpp.o" \
 "CMakeFiles/mprpc.dir/mprpccontroller.cpp.o" \
-"CMakeFiles/mprpc.dir/logger.cpp.o"
+"CMakeFiles/mprpc.dir/logger.cpp.o" \
+"CMakeFiles/mprpc.dir/zookeeperutil.cpp.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
@@ -245,9 +270,10 @@ mprpc_EXTERNAL_OBJECTS =
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/logger.cpp.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library ../../lib/libmprpc.a"
 	cd /home/gubin/project_beta/project_beta/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /home/gubin/project_beta/project_beta/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
@@ -263,6 +289,7 @@ src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.re
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/logger.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires
 
 .PHONY : src/CMakeFiles/mprpc.dir/requires
 

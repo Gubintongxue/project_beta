@@ -6,6 +6,7 @@
 #include "mprpcchannel.h"
 #include "mprpccontroller.h"
 #include "logger.h"
+#include "zookeeperutil.h"
 #pragma once
 
 // mprpc框架的基础类，负责框架的一些初始化操作

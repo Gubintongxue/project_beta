@@ -13,4 +13,5 @@ example/callee/CMakeFiles/provider.dir/friendservice.cc.o
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
  ../src/include/rpcprovider.h
+ ../src/include/zookeeperutil.h
  /home/gubin/project_beta/project_beta/mprpc/example/callee/friendservice.cc

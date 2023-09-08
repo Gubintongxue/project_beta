@@ -12,6 +12,7 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
+ ../src/include/zookeeperutil.h
  /home/gubin/project_beta/project_beta/mprpc/src/mprpcapplication.cpp
 src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
  ../src/include/lockqueue.h
@@ -20,6 +21,7 @@ src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
  ../src/include/mprpcchannel.h
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
+ ../src/include/zookeeperutil.h
  /home/gubin/project_beta/project_beta/mprpc/src/mprpcchannel.cpp
  /home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.h
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
@@ -39,5 +41,15 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
  ../src/include/mprpcconfig.h
  ../src/include/mprpccontroller.h
  ../src/include/rpcprovider.h
+ ../src/include/zookeeperutil.h
  /home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.h
  /home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
+ ../src/include/mprpcapplication.h
+ ../src/include/mprpcchannel.h
+ ../src/include/mprpcconfig.h
+ ../src/include/mprpccontroller.h
+ ../src/include/zookeeperutil.h
+ /home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.cpp

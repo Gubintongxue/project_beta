@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gubin/project_beta/project_beta/mprpc/src/mprpccontroller.cpp" "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o"
   "/home/gubin/project_beta/project_beta/mprpc/src/rpcheader.pb.cc" "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
   "/home/gubin/project_beta/project_beta/mprpc/src/rpcprovider.cpp" "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
+  "/home/gubin/project_beta/project_beta/mprpc/src/zookeeperutil.cpp" "/home/gubin/project_beta/project_beta/mprpc/build/src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
