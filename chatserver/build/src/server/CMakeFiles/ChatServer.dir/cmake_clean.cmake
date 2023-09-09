@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ChatServer.dir/chatservice.cpp.o"
   "CMakeFiles/ChatServer.dir/main.cpp.o"
   "CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
   "../../../bin/ChatServer.pdb"
   "../../../bin/ChatServer"
 )

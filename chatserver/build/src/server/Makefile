@@ -233,6 +233,33 @@ main.cpp.s:
 	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+model/usermodel.o: model/usermodel.cpp.o
+
+.PHONY : model/usermodel.o
+
+# target to build an object file
+model/usermodel.cpp.o:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
+.PHONY : model/usermodel.cpp.o
+
+model/usermodel.i: model/usermodel.cpp.i
+
+.PHONY : model/usermodel.i
+
+# target to preprocess a source file
+model/usermodel.cpp.i:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.i
+.PHONY : model/usermodel.cpp.i
+
+model/usermodel.s: model/usermodel.cpp.s
+
+.PHONY : model/usermodel.s
+
+# target to generate assembly for a file
+model/usermodel.cpp.s:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.s
+.PHONY : model/usermodel.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +281,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model/usermodel.o"
+	@echo "... model/usermodel.i"
+	@echo "... model/usermodel.s"
 .PHONY : help
 
 

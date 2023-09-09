@@ -32,6 +32,14 @@ mysql/mysql.h
 string
 -
 
+../include/server/model/user.hpp
+string
+-
+
+../include/server/model/usermodel.hpp
+user.hpp
+../include/server/model/user.hpp
+
 ../thirdparty/json.hpp
 algorithm
 -
@@ -395,6 +403,14 @@ muduo/base/Logging.h
 /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp
 chatserver.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.hpp
+iostream
+-
+
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/usermodel.cpp
+usermodel.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/usermodel.hpp
+db.h
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/db.h
 iostream
 -
 
