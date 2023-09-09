@@ -26,6 +26,12 @@ mutex
 json.hpp
 ../include/server/json.hpp
 
+../include/server/db/db.h
+mysql/mysql.h
+-
+string
+-
+
 ../thirdparty/json.hpp
 algorithm
 -
@@ -378,6 +384,12 @@ public.hpp
 muduo/base/Logging.h
 -
 vector
+-
+
+/home/gubin/project_beta/project_beta/chatserver/src/server/db/db.cpp
+db.h
+/home/gubin/project_beta/project_beta/chatserver/src/server/db/db.h
+muduo/base/Logging.h
 -
 
 /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp

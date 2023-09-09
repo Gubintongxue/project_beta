@@ -11,6 +11,9 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
  ../include/server/chatservice.hpp
  ../thirdparty/json.hpp
  /home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.cpp
+src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
+ ../include/server/db/db.h
+ /home/gubin/project_beta/project_beta/chatserver/src/server/db/db.cpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o
  ../include/server/chatserver.hpp
  /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
   "/home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
+  "/home/gubin/project_beta/project_beta/chatserver/src/server/db/db.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
   "/home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -15,6 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../thirdparty"
   "../include"
   "../include/server"
+  "../include/server/db"
   )
 
 # Targets to which this target links.

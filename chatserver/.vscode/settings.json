@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "adc.h": "c",
-        "mutex": "cpp"
+        "mutex": "cpp",
+        "string": "cpp"
     }
 }
