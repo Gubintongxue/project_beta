@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
+../include/public.hpp
+
 ../include/server/chatserver.hpp
 muduo/net/TcpServer.h
 -
 muduo/net/EventLoop.h
 -
+
+../include/server/chatservice.hpp
+muduo/net/TcpConnection.h
+-
+unordered_map
+-
+functional
+-
+mutex
+-
+json.hpp
+../include/server/json.hpp
 
 ../thirdparty/json.hpp
 algorithm
@@ -345,6 +359,8 @@ type_traits
 /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp
 chatserver.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.hpp
+chatservice.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.hpp
 json.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/json.hpp
 iostream
@@ -352,6 +368,16 @@ iostream
 functional
 -
 string
+-
+
+/home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.cpp
+chatservice.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.hpp
+public.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/public.hpp
+muduo/base/Logging.h
+-
+vector
 -
 
 /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp
