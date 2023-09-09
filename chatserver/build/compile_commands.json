@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/gubin/project_beta/project_beta/chatserver/build/src/server",
-  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp",
+  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp",
   "file": "/home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp"
 },
 {
   "directory": "/home/gubin/project_beta/project_beta/chatserver/build/src/server",
-  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/mian.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp",
-  "file": "/home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp"
+  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp",
+  "file": "/home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp"
 }
 ]

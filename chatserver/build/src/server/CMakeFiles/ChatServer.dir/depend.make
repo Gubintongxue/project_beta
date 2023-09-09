@@ -5,6 +5,6 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/chatser
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../thirdparty/json.hpp
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.cpp
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o: ../include/server/chatserver.hpp
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o: ../src/server/mian.cpp
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/chatserver.hpp
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp
 

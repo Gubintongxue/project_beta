@@ -5,6 +5,6 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
  ../include/server/chatserver.hpp
  ../thirdparty/json.hpp
  /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o
  ../include/server/chatserver.hpp
- /home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp
+ /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp

@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/thirdparty 
+CXX_INCLUDES = -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server 
 

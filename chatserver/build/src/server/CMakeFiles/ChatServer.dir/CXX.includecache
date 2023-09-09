@@ -354,7 +354,7 @@ functional
 string
 -
 
-/home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp
 chatserver.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.hpp
 iostream

@@ -81,40 +81,40 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o.provides: src/server/CMake
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o.provides.build: src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
 
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o: ../src/server/mian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/chatserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/ChatServer.dir/mian.cpp.o"
-	cd /home/gubin/project_beta/project_beta/chatserver/build/src/server && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/mian.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gubin/project_beta/project_beta/chatserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+	cd /home/gubin/project_beta/project_beta/chatserver/build/src/server && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/mian.cpp.i"
-	cd /home/gubin/project_beta/project_beta/chatserver/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp > CMakeFiles/ChatServer.dir/mian.cpp.i
+src/server/CMakeFiles/ChatServer.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/main.cpp.i"
+	cd /home/gubin/project_beta/project_beta/chatserver/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp > CMakeFiles/ChatServer.dir/main.cpp.i
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/mian.cpp.s"
-	cd /home/gubin/project_beta/project_beta/chatserver/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/chatserver/src/server/mian.cpp -o CMakeFiles/ChatServer.dir/mian.cpp.s
+src/server/CMakeFiles/ChatServer.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/main.cpp.s"
+	cd /home/gubin/project_beta/project_beta/chatserver/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp -o CMakeFiles/ChatServer.dir/main.cpp.s
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.requires:
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o.requires:
 
-.PHONY : src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.requires
+.PHONY : src/server/CMakeFiles/ChatServer.dir/main.cpp.o.requires
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.provides: src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.requires
-	$(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.provides.build
-.PHONY : src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.provides
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o.provides: src/server/CMakeFiles/ChatServer.dir/main.cpp.o.requires
+	$(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o.provides.build
+.PHONY : src/server/CMakeFiles/ChatServer.dir/main.cpp.o.provides
 
-src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.provides.build: src/server/CMakeFiles/ChatServer.dir/mian.cpp.o
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o.provides.build: src/server/CMakeFiles/ChatServer.dir/main.cpp.o
 
 
 # Object files for target ChatServer
 ChatServer_OBJECTS = \
 "CMakeFiles/ChatServer.dir/chatserver.cpp.o" \
-"CMakeFiles/ChatServer.dir/mian.cpp.o"
+"CMakeFiles/ChatServer.dir/main.cpp.o"
 
 # External object files for target ChatServer
 ChatServer_EXTERNAL_OBJECTS =
 
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
-../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/mian.cpp.o
+../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/main.cpp.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/build.make
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gubin/project_beta/project_beta/chatserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../bin/ChatServer"
@@ -126,7 +126,7 @@ src/server/CMakeFiles/ChatServer.dir/build: ../bin/ChatServer
 .PHONY : src/server/CMakeFiles/ChatServer.dir/build
 
 src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o.requires
-src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/mian.cpp.o.requires
+src/server/CMakeFiles/ChatServer.dir/requires: src/server/CMakeFiles/ChatServer.dir/main.cpp.o.requires
 
 .PHONY : src/server/CMakeFiles/ChatServer.dir/requires
 
