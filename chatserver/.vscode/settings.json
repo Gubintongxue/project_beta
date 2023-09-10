@@ -5,6 +5,7 @@
         "string": "cpp",
         "bitset": "cpp",
         "memory": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "functional": "cpp"
     }
 }

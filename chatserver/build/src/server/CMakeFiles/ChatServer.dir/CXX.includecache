@@ -29,6 +29,8 @@ friendmodel.hpp
 ../include/server/friendmodel.hpp
 offlinemessagemodel.hpp
 ../include/server/offlinemessagemodel.hpp
+groupmodel.hpp
+../include/server/groupmodel.hpp
 json.hpp
 ../include/server/json.hpp
 
@@ -43,6 +45,26 @@ user.hpp
 ../include/server/model/user.hpp
 vector
 -
+
+../include/server/model/group.hpp
+groupuser.hpp
+../include/server/model/groupuser.hpp
+string
+-
+vector
+-
+
+../include/server/model/groupmodel.hpp
+group.hpp
+../include/server/model/group.hpp
+string
+-
+vector
+-
+
+../include/server/model/groupuser.hpp
+user.hpp
+../include/server/model/user.hpp
 
 ../include/server/model/offlinemessagemodel.hpp
 string
@@ -431,6 +453,12 @@ signal.h
 /home/gubin/project_beta/project_beta/chatserver/src/server/model/friendmoel.cpp
 friendmodel.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/model/friendmodel.hpp
+db.h
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/db.h
+
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/groupmodel.cpp
+groupmodel.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/groupmodel.hpp
 db.h
 /home/gubin/project_beta/project_beta/chatserver/src/server/model/db.h
 
