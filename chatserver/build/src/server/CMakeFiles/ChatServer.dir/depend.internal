@@ -4,11 +4,15 @@
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
  ../include/server/chatserver.hpp
  ../include/server/chatservice.hpp
+ ../include/server/model/user.hpp
+ ../include/server/model/usermodel.hpp
  ../thirdparty/json.hpp
  /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.cpp
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
  ../include/public.hpp
  ../include/server/chatservice.hpp
+ ../include/server/model/user.hpp
+ ../include/server/model/usermodel.hpp
  ../thirdparty/json.hpp
  /home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.cpp
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o

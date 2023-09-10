@@ -23,6 +23,8 @@ functional
 -
 mutex
 -
+usermodel.hpp
+../include/server/usermodel.hpp
 json.hpp
 ../include/server/json.hpp
 
