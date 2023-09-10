@@ -413,7 +413,11 @@ muduo/base/Logging.h
 /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp
 chatserver.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.hpp
+chatservice.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.hpp
 iostream
+-
+signal.h
 -
 
 /home/gubin/project_beta/project_beta/chatserver/src/server/model/offlinemessagemodel.cpp

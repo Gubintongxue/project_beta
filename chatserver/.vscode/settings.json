@@ -2,6 +2,9 @@
     "files.associations": {
         "adc.h": "c",
         "mutex": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "bitset": "cpp",
+        "memory": "cpp",
+        "optional": "cpp"
     }
 }

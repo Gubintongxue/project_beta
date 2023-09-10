@@ -22,6 +22,11 @@ src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
  /home/gubin/project_beta/project_beta/chatserver/src/server/db/db.cpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o
  ../include/server/chatserver.hpp
+ ../include/server/chatservice.hpp
+ ../include/server/model/offlinemessagemodel.hpp
+ ../include/server/model/user.hpp
+ ../include/server/model/usermodel.hpp
+ ../thirdparty/json.hpp
  /home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp
 src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o
  ../include/server/db/db.h
