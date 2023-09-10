@@ -25,6 +25,8 @@ mutex
 -
 usermodel.hpp
 ../include/server/usermodel.hpp
+offlinemessagemodel.hpp
+../include/server/offlinemessagemodel.hpp
 json.hpp
 ../include/server/json.hpp
 
@@ -32,6 +34,12 @@ json.hpp
 mysql/mysql.h
 -
 string
+-
+
+../include/server/model/offlinemessagemodel.hpp
+string
+-
+vector
 -
 
 ../include/server/model/user.hpp
@@ -407,6 +415,12 @@ chatserver.hpp
 /home/gubin/project_beta/project_beta/chatserver/src/server/chatserver.hpp
 iostream
 -
+
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/offlinemessagemodel.cpp
+offlinemessagemodel.hpp
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/offlinemessagemodel.hpp
+db.h
+/home/gubin/project_beta/project_beta/chatserver/src/server/model/db.h
 
 /home/gubin/project_beta/project_beta/chatserver/src/server/model/usermodel.cpp
 usermodel.hpp
