@@ -12,6 +12,7 @@ using namespace muduo;
 using namespace muduo::net;
 
 #include "usermodel.hpp"
+#include "friendmodel.hpp"
 #include "offlinemessagemodel.hpp"
 #include "json.hpp"
 using json = nlohmann::json;
@@ -31,6 +32,8 @@ public:
     void reg(const TcpConnectionPtr &conn, json &js, Timestamp time);
     // 一对一聊天业务
     void oneChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
+    // 添加好友业务
+    void addFriend(const TcpConnectionPtr &conn, json &js, Timestamp time);
 
     // 服务器异常，业务重置方法
     void reset();
@@ -50,6 +53,7 @@ private:
     // 数据操作类对象
     UserModel _userModel;//用户表操作对象
     OfflineMsgModel _offlineMsgModel;//离线表操作对象
+    FriendModel _friendModel;//好友表操作对象
 };
 
 #endif

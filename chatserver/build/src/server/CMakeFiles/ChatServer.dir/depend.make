@@ -3,6 +3,7 @@
 
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/chatserver.hpp
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/chatservice.hpp
+src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/model/offlinemessagemodel.hpp
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/model/user.hpp
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../include/server/model/usermodel.hpp
@@ -11,6 +12,7 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
 
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../include/public.hpp
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../include/server/chatservice.hpp
+src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../include/server/model/offlinemessagemodel.hpp
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../include/server/model/user.hpp
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../include/server/model/usermodel.hpp
@@ -22,11 +24,17 @@ src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: ../src/server/db/db.cpp
 
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/chatserver.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/chatservice.hpp
+src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/model/friendmodel.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/model/offlinemessagemodel.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/model/user.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/model/usermodel.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../thirdparty/json.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp
+
+src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o: ../include/server/model/friendmodel.hpp
+src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o: ../include/server/model/user.hpp
+src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o: ../src/server/model/friendmoel.cpp
 
 src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o: ../include/server/db/db.h
 src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o: ../include/server/model/offlinemessagemodel.hpp

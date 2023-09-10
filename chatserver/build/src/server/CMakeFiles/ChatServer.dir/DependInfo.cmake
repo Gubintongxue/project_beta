@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/gubin/project_beta/project_beta/chatserver/src/server/chatservice.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
   "/home/gubin/project_beta/project_beta/chatserver/src/server/db/db.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
   "/home/gubin/project_beta/project_beta/chatserver/src/server/main.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
+  "/home/gubin/project_beta/project_beta/chatserver/src/server/model/friendmoel.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o"
   "/home/gubin/project_beta/project_beta/chatserver/src/server/model/offlinemessagemodel.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o"
   "/home/gubin/project_beta/project_beta/chatserver/src/server/model/usermodel.cpp" "/home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o"
   )

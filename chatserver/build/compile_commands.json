@@ -21,6 +21,11 @@
 },
 {
   "directory": "/home/gubin/project_beta/project_beta/chatserver/build/src/server",
+  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/include/server/db -I/home/gubin/project_beta/project_beta/chatserver/include/server/model  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmoel.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/model/friendmoel.cpp",
+  "file": "/home/gubin/project_beta/project_beta/chatserver/src/server/model/friendmoel.cpp"
+},
+{
+  "directory": "/home/gubin/project_beta/project_beta/chatserver/build/src/server",
   "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/include/server/db -I/home/gubin/project_beta/project_beta/chatserver/include/server/model  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/model/offlinemessagemodel.cpp",
   "file": "/home/gubin/project_beta/project_beta/chatserver/src/server/model/offlinemessagemodel.cpp"
 },
