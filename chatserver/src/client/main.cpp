@@ -219,6 +219,7 @@ int main(int argc, char **argv)
                     readTask.detach(); // 设置成分离线程
 
                     // 进入聊天主菜单页面
+                    isMainMenuRunning = true; // 登录成功，置成true
                     mainMenu(clientfd);
                 }
             }
