@@ -6,7 +6,6 @@
 #include <functional>
 #include <mutex>
 
-
 using namespace std;
 using namespace muduo;
 using namespace muduo::net;
@@ -41,13 +40,15 @@ public:
     void addGroup(const TcpConnectionPtr &conn, json &js, Timestamp time);
     // 群组聊天业务
     void groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
-    
+    // 处理注销业务
+    void loginout(const TcpConnectionPtr &conn, json &js, Timestamp time);
     // 服务器异常，业务重置方法
     void reset();
     // 获取消息对应的处理器
     MsgHandler getHandler(int msgid);
     // 处理客户端异常退出
     void clientCloseException(const TcpConnectionPtr &conn);
+
 private:
     ChatService();
     // 存储消息id和其对应的业务处理方法
@@ -58,11 +59,10 @@ private:
     mutex _connMutex;
 
     // 数据操作类对象
-    UserModel _userModel;//用户表操作对象
-    OfflineMsgModel _offlineMsgModel;//离线表操作对象
-    FriendModel _friendModel;//好友表操作对象
-    GroupModel _groupModel;//群组表操作对象
-
+    UserModel _userModel;             // 用户表操作对象
+    OfflineMsgModel _offlineMsgModel; // 离线表操作对象
+    FriendModel _friendModel;         // 好友表操作对象
+    GroupModel _groupModel;           // 群组表操作对象
 };
 
 #endif

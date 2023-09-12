@@ -17,6 +17,7 @@ ChatService::ChatService()
 {
     // 用户基本业务管理相关事件处理回调注册
     _msgHandlerMap.insert({LOGIN_MSG, std::bind(&ChatService::login, this, _1, _2, _3)});
+    _msgHandlerMap.insert({LOGINOUT_MSG, std::bind(&ChatService::loginout, this, _1, _2, _3)});
     _msgHandlerMap.insert({REG_MSG, std::bind(&ChatService::reg, this, _1, _2, _3)});
     _msgHandlerMap.insert({ONE_CHAT_MSG, std::bind(&ChatService::oneChat, this, _1, _2, _3)});
     _msgHandlerMap.insert({ADD_FRIEND_MSG, std::bind(&ChatService::addFriend, this, _1, _2, _3)});
@@ -25,7 +26,6 @@ ChatService::ChatService()
     _msgHandlerMap.insert({CREATE_GROUP_MSG, std::bind(&ChatService::createGroup, this, _1, _2, _3)});
     _msgHandlerMap.insert({ADD_GROUP_MSG, std::bind(&ChatService::addGroup, this, _1, _2, _3)});
     _msgHandlerMap.insert({GROUP_CHAT_MSG, std::bind(&ChatService::groupChat, this, _1, _2, _3)});
-
 }
 
 // 服务器异常，业务重置方法
@@ -43,7 +43,8 @@ MsgHandler ChatService::getHandler(int msgid)
     if (it == _msgHandlerMap.end())
     {
         // 返回一个默认的处理器，空操作
-        return [=](const TcpConnectionPtr &conn, json &js, Timestamp) {
+        return [=](const TcpConnectionPtr &conn, json &js, Timestamp)
+        {
             LOG_ERROR << "msgid:" << msgid << " can not find handler!";
         };
     }
@@ -112,7 +113,7 @@ void ChatService::login(const TcpConnectionPtr &conn, json &js, Timestamp time)
                 }
                 response["friends"] = vec2;
             }
-        
+
             conn->send(response.dump());
         }
     }
@@ -156,6 +157,25 @@ void ChatService::reg(const TcpConnectionPtr &conn, json &js, Timestamp time)
     }
 }
 
+// 处理注销业务
+void ChatService::loginout(const TcpConnectionPtr &conn, json &js, Timestamp time)
+{
+    int userid = js["id"].get<int>();
+
+    {
+        lock_guard<mutex> lock(_connMutex);
+        auto it = _userConnMap.find(userid);
+        if (it != _userConnMap.end())
+        {
+            _userConnMap.erase(it);
+        }
+    }
+
+    // 更新用户的状态信息
+    User user(userid, "", "", "offline");
+    _userModel.updateState(user);
+}
+
 // 处理客户端异常退出
 void ChatService::clientCloseException(const TcpConnectionPtr &conn)
 {
@@ -174,7 +194,6 @@ void ChatService::clientCloseException(const TcpConnectionPtr &conn)
         }
     }
 
-    
     // 更新用户的状态信息
     if (user.getId() != -1)
     {
@@ -212,7 +231,6 @@ void ChatService::addFriend(const TcpConnectionPtr &conn, json &js, Timestamp ti
     // 存储好友信息
     _friendModel.insert(userid, friendid);
 }
-
 
 // 创建群组业务
 void ChatService::createGroup(const TcpConnectionPtr &conn, json &js, Timestamp time)
@@ -256,7 +274,7 @@ void ChatService::groupChat(const TcpConnectionPtr &conn, json &js, Timestamp ti
         }
         else
         {
-             // 存储离线群消息
+            // 存储离线群消息
             _offlineMsgModel.insert(id, js.dump());
         }
     }
