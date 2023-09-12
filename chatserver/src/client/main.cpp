@@ -214,10 +214,14 @@ int main(int argc, char **argv)
                         }
                     }
 
-                    // 登录成功 启动接收线程负责接收数据
-                    std::thread readTask(readTaskHandler, clientfd);
-                    readTask.detach(); // 设置成分离线程
-
+                    // 登录成功 启动接收线程负责接收数据,该线程只启动一次
+                    static int readThreadNumber = 0;
+                    if (readThreadNumber == 0)
+                    {
+                        std::thread readTask(readTaskHandler, clientfd);
+                        readTask.detach(); // 设置成分离线程
+                        readThreadNumber++;
+                    }
                     // 进入聊天主菜单页面
                     isMainMenuRunning = true; // 登录成功，置成true
                     mainMenu(clientfd);
