@@ -6,6 +6,7 @@
         "bitset": "cpp",
         "memory": "cpp",
         "optional": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "iostream": "cpp"
     }
 }

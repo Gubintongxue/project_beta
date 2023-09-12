@@ -6,4 +6,5 @@
 /home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/ChatServer.dir
 /home/gubin/project_beta/project_beta/chatserver/build/src/server/CMakeFiles/edit_cache.dir
 /home/gubin/project_beta/project_beta/chatserver/build/src/client/CMakeFiles/rebuild_cache.dir
+/home/gubin/project_beta/project_beta/chatserver/build/src/client/CMakeFiles/ChatClient.dir
 /home/gubin/project_beta/project_beta/chatserver/build/src/client/CMakeFiles/edit_cache.dir

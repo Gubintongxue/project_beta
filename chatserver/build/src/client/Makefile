@@ -110,6 +110,48 @@ depend:
 	cd /home/gubin/project_beta/project_beta/chatserver/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/client/CMakeFiles/ChatClient.dir/rule:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/client/CMakeFiles/ChatClient.dir/rule
+.PHONY : src/client/CMakeFiles/ChatClient.dir/rule
+
+# Convenience name for target.
+ChatClient: src/client/CMakeFiles/ChatClient.dir/rule
+
+.PHONY : ChatClient
+
+# fast build rule for target.
+ChatClient/fast:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
+.PHONY : ChatClient/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/gubin/project_beta/project_beta/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -117,7 +159,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ChatClient"
 	@echo "... edit_cache"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

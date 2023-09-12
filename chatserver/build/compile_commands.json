@@ -38,5 +38,10 @@
   "directory": "/home/gubin/project_beta/project_beta/chatserver/build/src/server",
   "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/include/server/db -I/home/gubin/project_beta/project_beta/chatserver/include/server/model  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/server/model/usermodel.cpp",
   "file": "/home/gubin/project_beta/project_beta/chatserver/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/home/gubin/project_beta/project_beta/chatserver/build/src/client",
+  "command": "/usr/bin/g++   -I/home/gubin/project_beta/project_beta/chatserver/thirdparty -I/home/gubin/project_beta/project_beta/chatserver/include -I/home/gubin/project_beta/project_beta/chatserver/include/server -I/home/gubin/project_beta/project_beta/chatserver/include/server/db -I/home/gubin/project_beta/project_beta/chatserver/include/server/model  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/gubin/project_beta/project_beta/chatserver/src/client/main.cpp",
+  "file": "/home/gubin/project_beta/project_beta/chatserver/src/client/main.cpp"
 }
 ]
